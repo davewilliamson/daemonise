@@ -1,0 +1,29 @@
+{
+  "name": "daemonise",
+  "description": "Tool to make your application work as a daemon",
+  "version": "0.0.1",
+  "author": "davewilliamson",
+  "homepage": "https://github.com/davewilliamson/daemonise",
+  "keywords": [
+    "daemon"
+  ],
+  "bugs": "https://github.com/davewilliamson/daemonise/issues",
+  "private": false,
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/davewilliamson/daemonise.git"
+  },
+  "engine": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "buster-test"
+  },
+  "main": "index.js",
+  "devDependencies": {
+    "buster": "~0.6.12",
+    "jshint": "~2.1.10"
+  },
+  "dependencies": {}
+}
